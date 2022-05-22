@@ -1,0 +1,13 @@
+.input-area-contents {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.input-area {
+  padding: 10px;
+}
+
+.button-area {
+  padding: 10px;
+}

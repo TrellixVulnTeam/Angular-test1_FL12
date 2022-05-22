@@ -1,0 +1,20 @@
+.header {
+  background-color: aliceblue;
+}
+
+.header-container {
+  height: 40px;
+}
+
+.header-app-name {
+  margin-left: 10px;
+}
+
+.header-spacer {
+  flex: 1 1 auto;
+}
+
+.sidebar {
+  top: 40px;
+  background-color: aliceblue;
+}

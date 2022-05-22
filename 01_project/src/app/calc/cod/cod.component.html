@@ -1,0 +1,102 @@
+<div class="input-area-contents">
+  <div class="input-area">
+    <div>
+      <label>No.</label>
+    </div>
+    <div>
+      <input
+        id="textbox01"
+        name="textbox01"
+        type="text"
+        [(ngModel)]="valTB01"
+      />
+    </div>
+  </div>
+  <div class="input-area">
+    <div>
+      <label>希釈倍率 (A)</label>
+    </div>
+    <div>
+      <input
+        id="textbox02"
+        name="textbox02"
+        type="text"
+        [(ngModel)]="valTB02"
+      />
+    </div>
+  </div>
+  <div class="input-area">
+    <div>
+      <label>試料量(mL) (B)</label>
+    </div>
+    <div>
+      <input
+        id="textbox03"
+        name="textbox03"
+        type="text"
+        [(ngModel)]="valTB03"
+      />
+    </div>
+  </div>
+  <div class="input-area">
+    <div>
+      <label>滴定量(mL) (C)</label>
+    </div>
+    <div>
+      <input
+        id="textbox04"
+        name="textbox04"
+        type="text"
+        [(ngModel)]="valTB04"
+      />
+    </div>
+  </div>
+  <div class="input-area">
+    <div>
+      <label>Blank補正値 (D)</label>
+    </div>
+    <div>
+      <input
+        id="textbox05"
+        name="textbox05"
+        type="text"
+        [(ngModel)]="valTB05"
+      />
+    </div>
+  </div>
+</div>
+
+<div class="input-area-contents">
+  <div class="input-area">
+    <div>
+      <label>計算式</label>
+    </div>
+    <div>
+      <input
+        id="textbox06"
+        name="textbox06"
+        type="text"
+        [(ngModel)]="valTB06"
+        disabled="disabled"
+      />
+    </div>
+  </div>
+  <div class="input-area">
+    <div>
+      <label>報告量(mL)</label>
+    </div>
+    <div>
+      <input
+        id="textbox07"
+        name="textbox07"
+        type="text"
+        [(ngModel)]="valTB07"
+        disabled="disabled"
+      />
+    </div>
+  </div>
+</div>
+
+<div class="button-area">
+  <button type="button" (click)="calcCOD()">計算</button>
+</div>

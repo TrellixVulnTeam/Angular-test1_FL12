@@ -1,0 +1,19 @@
+<div class="header">
+  <mat-toolbar class="header-container">
+    <button mat-icon-button (click)="drawer.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <div class="header-app-name">？？？ツール</div>
+    <div class="header-spacer"></div>
+    <button mat-icon-button>
+      <mat-icon routerLink=".">home</mat-icon>
+    </button>
+    <button mat-icon-button>
+      <mat-icon>settings</mat-icon>
+    </button>
+  </mat-toolbar>
+
+  <mat-sidenav #drawer mode="side" class="sidebar">
+    <app-sidebar></app-sidebar>
+  </mat-sidenav>
+</div>

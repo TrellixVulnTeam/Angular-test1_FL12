@@ -1,0 +1,9 @@
+.main-area {
+  display: flex;
+  width: 100%;
+  min-height: 400px;
+}
+
+.sidebar-container {
+  position: relative;
+}

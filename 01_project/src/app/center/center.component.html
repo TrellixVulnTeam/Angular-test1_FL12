@@ -1,0 +1,13 @@
+<div class="main-area">
+  <mat-drawer-container autosize>
+    <div class="sidebar-container">
+      <div class="material-icons" (click)="drawer.toggle()">arrow_back_ios</div>
+    </div>
+
+    <router-outlet></router-outlet>
+
+    <mat-drawer #drawer mode="side">
+      <app-sidebar></app-sidebar>
+    </mat-drawer>
+  </mat-drawer-container>
+</div>
